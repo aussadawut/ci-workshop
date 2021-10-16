@@ -2,8 +2,8 @@ pipeline {
     agent any
     environment {
         // แก้ไขเป็นของผู่เรียน
-        USERID = 'demo'
-        USERGITHUB = 'peerapach'
+        USERID = 'pm002'
+        USERGITHUB = 'aussadawut'
     }
     stages {
         stage("Checkout code") {
